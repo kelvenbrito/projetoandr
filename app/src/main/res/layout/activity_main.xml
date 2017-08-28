@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/accent"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:id="@+id/txt_disciplina"
+            style="?android:attr/textAppearanceMedium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_disciplina"
+            android:layout_weight="3" />
+
+        <TextView
+            android:id="@+id/txt_media"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txt_media"
+            android:gravity="end" />
+
+        <TextView
+            android:id="@+id/txt_faltas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txt_faltas"
+            android:gravity="end" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/txt_empty"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

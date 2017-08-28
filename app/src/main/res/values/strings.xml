@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DinfoApp - Boletim</string>
+    <string name="pontuar_titulo">Controlar pontuação</string>
+    <string name="titulo_jogabilidade">Jogabilidade</string>
+    <string name="titulo_nivel">Nível</string>
+    <string name="sumario_dificuldade">Nível de dificuldade</string>
+    <string name="dialog_titulo_nivel">Ecolha um nível</string>
+    <string name="titulo_publicacao">Publicação</string>
+    <string name="titulo_publicar">Publicar score</string>
+    <bool name="publicacao_default">false</bool>
+    <integer name="nivel_default">0</integer>
+    <bool name="pontuar_default">false</bool>
+
+    <string name="pontuar_key">pontuar</string>
+    <string name="nivel_key">nivel</string>
+    <string name="publicar_key">publicar</string>
+    <string name="username_key">username</string>
+    <string name="titulo_username">Username</string>
+    <string name="titulo_autenticacao">Autenticação</string>
+    <string name="senha_key">senha</string>
+    <string name="titulo_senha">Senha</string>
+
+
+    <string name="txt_empty">Nenhum produto cadastrado</string>
+    <string name="action_add">Adicionar</string>
+
+    <string name="txt_disciplina">Disciplina:</string>
+    <string name="txt_media">Media:</string>
+    <string name="txt_faltas">Faltas:</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_ok">OK</string>
+</resources>

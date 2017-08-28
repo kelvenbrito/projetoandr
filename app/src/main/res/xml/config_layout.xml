@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+      android:key="@string/pontuar_key"
+        android:defaultValue="@bool/pontuar_default"
+        android:title="@string/pontuar_titulo"
+    />
+    <PreferenceCategory android:title="@string/titulo_jogabilidade">
+        <ListPreference android:key="@string/nivel_key"
+            android:title="@string/titulo_nivel"
+            android:summary="@string/sumario_dificuldade"
+            android:entries="@array/niveis"
+            android:entryValues="@array/niveis_valores"
+            android:dialogTitle="@string/dialog_titulo_nivel"
+            android:defaultValue="@integer/nivel_default"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/titulo_publicacao">
+    <CheckBoxPreference
+        android:defaultValue="@bool/publicacao_default"
+        android:key="@string/publicar_key"
+        android:title="@string/titulo_publicar" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/titulo_autenticacao" >
+        <EditTextPreference
+            android:key="@string/username_key"
+            android:title="@string/titulo_username"
+            android:inputType="number"
+            />
+        <EditTextPreference
+            android:key="@string/senha_key"
+            android:title="@string/titulo_senha"
+            android:inputType="numberPassword"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>
